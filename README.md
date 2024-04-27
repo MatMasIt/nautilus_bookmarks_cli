@@ -1,7 +1,7 @@
 # Nautilus Bookmarks Cli
 
 The Nautilus Bookmarks Manager is a Bashrc script that allows you to 
-quickly access Nautilus bookmarks from the command line, by just typing the bookmark name.
+quickly access Nautilus bookmarks from the command line (cd), by just typing the bookmark name.
 
 Nautilus is the default file manager for GNOME desktop environments.
 
@@ -13,6 +13,9 @@ Nautilus is the default file manager for GNOME desktop environments.
    - Restart your terminal or run `source ~/.bashrc` to apply the changes.
 
 2. **Usages**:
-   - Use the `nbk` or `nautilus_list_bookmarks` command to list all bookmarks.
-   - Type the name of the bookmark to open the bookmarked directory in Nautilus.
+   1. Use the `nbk` or `nautilus_list_bookmarks` command to list all bookmarks.
+   2. Type the name of the bookmark to open the bookmarked directory in the terminal (cd).
+
    - **Note**: bookmarks that could shadow existing commands will be ignored.
+   - **Note**: Spaces or special characters will be replaced with underscores.
+   - **Note**: Bookmarks not pointing to files will be opened in nautilus.
