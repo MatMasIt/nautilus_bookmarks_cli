@@ -8,7 +8,7 @@ Nautilus is the default file manager for GNOME desktop environments.
 ## Usage
 
 1. **Installation**:
-   - Clone this repository or download the `nautilus_bookmarks.sh` script.
+   - Clone this repository or download the `nautilus.sh` script.
    - Copy the contents of the script to your `.bashrc` file, or source the script in your `.bashrc` file.
    - Restart your terminal or run `source ~/.bashrc` to apply the changes.
 
